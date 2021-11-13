@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Register Form</title>
+        <meta charset="UTF-8">
+       <!--<meta http-equiv="refresh" content="30">-->
+       <meta name="description" content="My First HTML Page">
+       <meta name="keywords" content="HTML, CSS, JavaScript">
+       <meta name="author" content="Ser Bug">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+       <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <nav>
+            <a href="index.html">HOME</a>
+            <a href="login.html">LOGIN</a>
+        </nav>
+      <h1>Register PAGE</h1>
+      <form action="">
+          <label for="nume" class="label_register_form">Nume</label>
+          <input type="text" id="nume" name="nume" value="" placeholder="Username">
+          <br>
+          <br>
+          <label for="email" class="label_register_form">Email</label>
+          <input type="email" id="email" name="email" value="" autocomplete="off" placeholder="Email">
+          <br>
+          <br>
+          <label for="telefon" class="label_register_form">Telefon</label>
+          <input type="tel" name="telefon" id="telefon" placeholder="Telefon" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+          <br>
+          <br>
+          <label for="password" class="label_register_form">Password</label>
+          <input type="password" id="password" name="password" value="" placeholder="Minim 4 caractere">
+          <br>
+          <br>
+          <label for="masina" class="label_register_form">Masina</label>
+          <select name="masina" id="masina">
+              <option value="audi">Audi</option>
+              <option value="tesla">Tesla</option>
+              <option value="bmw">BMW</option>
+          </select>
+          <br>
+          <br>
+          <label for="descriere" class="label_register_form">Descriere</label>
+          <textarea name="descriere" id="descrirere" cols="30" rows="10"></textarea>
+          <br>
+          <br>
+          <input type="submit">
+          <input type="reset" >
+          <!--<button type="submit">Trimite</button>-->
+      </form>
+      
+    </body>
+</html>

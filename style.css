@@ -1,3 +1,27 @@
 body{
-    background-color: gray;
+    background-image: url("resources/img/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+    color: white;
+
+}
+h1{
+    text-align: center;
+}
+a{
+    color: white;
+    padding: 1%;
+}
+nav{
+    text-align: center;
+   /* margin-left: 25%;*/
+}
+/* Atribut de tip ID*/
+#formular_exemplu{
+    color: aqua;
+}
+/*Atribut de tip CLASS*/
+.label_register_form{
+    color:chocolate;
 }
