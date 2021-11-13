@@ -11,6 +11,10 @@ h1.label_register_form {
     color: blueviolet;
     
 }
+h1.label_login_form{
+    text-align: center;
+    color:seagreen;
+}
 a{
     color: white;
     padding: 1%;
