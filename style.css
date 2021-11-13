@@ -1,3 +1,6 @@
+html{
+    font-size: 15px;
+}
 body{
     background-image: url("resources/img/background.jpg");
     background-repeat: no-repeat;
@@ -15,9 +18,20 @@ h1.label_login_form{
     text-align: center;
     color:seagreen;
 }
+.login_form{
+    margin: 0rem;
+    border: none;
+text-align: center;
+    padding: 2rem;
+    width: 15rem;
+    height: 14rem;
+
+    background-color: darkolivegreen;
+
+}
 a{
     color: white;
-    padding: 1%;
+    padding: 1rem;
 }
 nav{
     text-align: center;
