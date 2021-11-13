@@ -6,8 +6,10 @@ body{
     color: white;
 
 }
-h1{
+h1.label_register_form {
     text-align: center;
+    color: blueviolet;
+    
 }
 a{
     color: white;
@@ -22,6 +24,3 @@ nav{
     color: aqua;
 }
 /*Atribut de tip CLASS*/
-.label_register_form{
-    color:chocolate;
-}
