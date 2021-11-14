@@ -16,17 +16,36 @@ h1.label_register_form {
 }
 h1.label_login_form{
     text-align: center;
-    color:seagreen;
+    color:rgb(46, 48, 139);
 }
 .login_form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
     margin: 0rem;
     border: none;
-text-align: center;
+    text-align: center;
     padding: 2rem;
     width: 15rem;
     height: 14rem;
 
-    background-color: darkolivegreen;
+    background-color: rgba(18, 19, 18, 0.925);
+
+}
+.register_form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin: 0rem;
+    border: none;
+    text-align: center;
+    padding: 2rem;
+    width: 15rem;
+    height: 30rem;
+
+    background-color: rgba(18, 19, 18, 0.925);
 
 }
 a{
@@ -36,6 +55,10 @@ a{
 nav{
     text-align: center;
    /* margin-left: 25%;*/
+}
+#descriere{
+    text-align: center;
+   
 }
 /* Atribut de tip ID*/
 #formular_exemplu{
